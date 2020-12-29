@@ -28,9 +28,12 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
         PendingIntent.FLAG_UPDATE_CURRENT
     )
 
+
+
     // TODO: Step 1.2 get an instance of NotificationCompat.Builder
     val builder = NotificationCompat.Builder(
         applicationContext,
+        // TODO: Step 1.8 verify the notification channel name
         applicationContext.getString(R.string.egg_notification_channel_id)
     ).setSmallIcon(R.drawable.cooked_egg)
         .setContentTitle(applicationContext.getString(R.string.notification_title))
