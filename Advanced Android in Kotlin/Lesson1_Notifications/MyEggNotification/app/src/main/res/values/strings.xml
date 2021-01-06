@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">MyEggNotification</string>
-    <string name="egg_notification_channel_id">EggNoti</string>
-    <string name="egg_notification_channel_name">EggChannel</string>
-    <string name="notification_title">완성되었습니다</string>
-    <string name="egg_prompt">How do you like your egg?</string>
-    <string name="timer_running">Egg timer is running...</string>
-</resources>
